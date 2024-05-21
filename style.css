@@ -78,4 +78,5 @@ input[type="submit"]:hover {
 
 .description a {
     color: white;
+    text-decoration: none;
 }
