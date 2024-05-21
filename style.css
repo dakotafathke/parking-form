@@ -1,5 +1,6 @@
 body {
-    background-color: #2c2aa8; 
+    /* background-color: #2c2aa8;  */
+    background-image: linear-gradient(to bottom right, blue, black);
     color: #ffffff; 
 }
 
@@ -60,18 +61,20 @@ input[type="submit"] {
 
 input[type="submit"] {
     background-color: #ffffff; 
-    color: #3CB371; 
+    color: black; 
     border: none; 
     cursor: pointer; 
     width: 30%;
 }
 
 input[type="submit"]:hover {
-    background-color: #dbd8f9; 
-    color: #32935d; 
-
+    background-color: #dcdcdc; 
 }
 
 .description {
     text-align: center;
+}
+
+.description .phone-number {
+    -webkit-touch-callout: none;
 }
