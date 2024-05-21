@@ -72,9 +72,10 @@ input[type="submit"]:hover {
 }
 
 .description {
+    color: white;
     text-align: center;
 }
 
-.description .phone-number {
-    -webkit-touch-callout: none;
+.description a {
+    color: white;
 }
